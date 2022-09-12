@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
-    <title>eShopping | Admin page(Products)</title>
+    <title>EverMall | Admin page(Products)</title>
     <link rel="stylesheet" href="Admin.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
    <div class="container1">
         <div class="navbar">
                 <div class="logo">
-                    <img src="../Homepage/Logo.png" width="200px">
+                <img src="../Evermall(White).png" width="200px">
                 </div>
                 <nav>
                     <ul id="MenuItems">
@@ -123,8 +123,8 @@
                 <h3>Download Our App</h3>
                 <p>Download App for Android and ios mobile phone.</p>
                 <div class="app-logo">
-                    <img src="../eShopping/images/play-store.png">
-                    <img src="../eShopping/images/app-store.png">
+                    <img src="../play-store.png">
+                    <img src="../app-store.png">
                 </div>
             </div>
 
