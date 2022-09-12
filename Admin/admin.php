@@ -32,7 +32,7 @@ if(isset($message)){
     <div class="container1">
     <div class="navbar">
         <div class="logo">
-        <img src="../Evermall(White).png" width="200px">
+        <img src="../Evermall(Black).png" width="200px">
         </div>
         <nav>
             <ul id="MenuItems">
@@ -159,7 +159,7 @@ if(isset($message)){
 
         </div>
         <hr>
-        <p class="copyright">&#169; 2022 eShopping</p>
+        <p class="copyright">&#169; 2022 EverMall</p>
     </div>
 </div>
 
