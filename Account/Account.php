@@ -57,11 +57,11 @@
             <button type="button" class="toggle-btn" onclick="login()">Log In</button>
             <button type="button" class="toggle-btn" onclick="register()">Register</button>
         </div>
-        <div class="social-icons">
+        <!--<div class="social-icons">
             <img src="fb.png">
             <img src="tw.png">
             <img src="gp.png">
-        </div>
+        </div>--->
 
         <!------------Login Form-------------->
         <form id="login" action="../Admin/admin.php" method="" class="input-group">              
