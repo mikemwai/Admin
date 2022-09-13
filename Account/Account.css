@@ -8,9 +8,10 @@
 {
     height:100%;
     width:100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Login&Register.png);
+    /*background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Login&Register.png);*/
     background-size: cover;
     position:absolute;
+   /* background-color: #FFEBCD;*/
 }
 
 .navbar {
@@ -21,6 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 nav {
@@ -66,8 +68,12 @@ nav ul li a
     margin-left: 20px;
     display: none;
 }
+/*.header{
+    background-color: #778899;
+}*/
 .header .row {
     margin-top: 70px;
+
 }
 
 .form-box
@@ -80,7 +86,9 @@ nav ul li a
     background:#fff;
     padding:10px;
     overflow:hidden;
+   /* background-color: #D2B48C;*/
 }
+
 .button-box
 {
     width:220px;
