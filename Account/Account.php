@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <title>EverMall | Account</title>
     <link rel="stylesheet" href="Account.css">
 </head>
@@ -17,18 +18,22 @@
                 </a>
 
                 <nav>
-                    <ul id="MenuItems">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Shop</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Account</a></li>
-                        <li><a href="">Cart</a></li>
-                    </ul>
-            </nav>
+                <div class="nav-links" id="navLinks">
+                <img src="../close.png" class="menu-icon"
+                 onclick="hideMenu()">
+                <ul id="MenuItems">
+                    <li><a href="../Homepage/home.php">Home</a></li>
+                    <li><a href="../Homepage/Shoppage.php">Shop</a></li>
+                    <li><a href="../About/About.php">About</a></li>
+                    <li><a href="../Contact%20Us/Contact.php">Contact</a></li>
+                    <li><a href="../Account/Account.php">Account</a></li>
+                    <li><a href="../Account/Cart.php">Cart</a></li>
+                </ul>
+                </div>
+                </nav>
 
-                <img src="../eShopping/images/menu.png" class="menu-icon"
-                     onclick="menu-toggle()">
+                <img src="../menu.png" class="menu-icon"
+                 onclick="showMenu()">
             </div>
         </div>
     </div>
@@ -104,5 +109,20 @@
         z.style.left="0px";
     }
 </script>
+
+<!--------------JavaScript for Toggle Menu----------------->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu()
+    {
+        navLinks.style.right="0";
+    }
+
+    function hideMenu()
+    {
+        navLinks.style.right="-200px";
+    }
+</script>
+
 </body>
 </html>
