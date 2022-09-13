@@ -21,7 +21,7 @@
                     </ul>
             </nav>
     
-                <!--<img src="../eShopping/images/cart.png" width="30px" height="30px">--->
+
                 <img src="../eShopping/images/menu.png" class="menu-icon"
                      onclick="menu-toggle()">
             </div>
