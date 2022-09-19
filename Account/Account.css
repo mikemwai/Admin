@@ -4,6 +4,12 @@
     padding:0;
     font-family: sans-serif;
 }
+
+body
+{
+    background-color: #FFEBCD;
+}
+
 .hero
 {
     height:100%;
