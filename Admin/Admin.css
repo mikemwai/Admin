@@ -6,6 +6,11 @@
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
     --border:.1rem solid var(--black);
   }
+
+  body
+  {
+    background-color: #FFEBCD;
+  }
   
   /*{
     font-family: 'Poppins', sans-serif;
@@ -101,7 +106,7 @@
    display: flex;
    align-items: center;
    justify-content: space-between;
-   margin-bottom:50px;
+   /*margin-bottom:50px;*/
    margin-left: 60px;
   }
   
@@ -126,7 +131,7 @@
     width:180px;
     height:60px;
     text-decoration: none;
-    color: rgb(78, 76, 76);
+    color: var(--white);
   }
   
   .navbar ul li::after 
@@ -212,7 +217,7 @@
   
   .title::after {
     content: '';
-    background: #ff523b;
+    background: #778899;
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -221,12 +226,18 @@
     left: 50%;
     transform: translateX(-50%);
   }
+
+  .title1
+  {
+    margin-top: 30px;
+  }
   
   .menu-icon {
     width: 28px;
     margin-left: 20px;
     display: none;
   }
+
   .header .row {
     margin-top: 70px;
   }
@@ -246,7 +257,7 @@
     margin-top: 1rem;
     font-size: 1.7rem;
     padding:1rem 3rem;
-    background:linear-gradient(to right,#ff105f,#ffad06);
+    background:#778899;
     color:var(--white);
     text-align: center;
     border:none;
@@ -271,6 +282,18 @@
     padding:2rem;
     margin:0 auto;
   }
+
+  .container1
+  {
+    background-color:#778899 ;
+    box-shadow:0 0 20px 9px #0a0a0a1f;
+    /*margin-bottom: 20px;*/
+  }
+
+  .hero
+  {
+    background-color: #FFEBCD;
+  }
   
   .admin-product-form-container.centered{
     display: flex;
@@ -286,7 +309,7 @@
     margin-bottom: 10%;
     padding:2rem;
     border-radius: .5rem;
-    background: var(--bg-color);
+    background:#D2B48C;
   }
   
   .admin-product-form-container form h3{
@@ -318,7 +341,7 @@
   }
   
   .product-display .product-display-table thead{
-    background: var(--bg-color);
+    background:#D2B48C;
   }
   
   .product-display .product-display-table th{
@@ -338,7 +361,7 @@
   }
   
   .product-display .product-display-table .btn:last-child{
-    background: crimson;
+    background: #778899;
   }
   
   .product-display .product-display-table .btn:last-child:hover{
@@ -426,14 +449,6 @@
   .copyright {
     text-align: center;
   }
-  
-  
-  
-  
-  
-  
-  
-  
   
   @media (max-width:991px){
   

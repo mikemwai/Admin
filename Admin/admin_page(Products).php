@@ -13,7 +13,7 @@
    <div class="container1">
         <div class="navbar">
                 <div class="logo">
-                <img src="../Evermall(Black).png" width="200px">
+                <img src="../Evermall(White).png" width="200px">
                 </div>
                 <nav>
                     <ul id="MenuItems">
@@ -28,7 +28,9 @@
     </div>
 </div>
 
+<div class="title1">
 <h1 style="margin: 0 auto" class="title">Admin Page</h1>
+</div>
 
 <div style="margin: 0 auto" class="header1">
     <div class="container">
@@ -115,7 +117,7 @@
    </div>
 </div>
 
-<!--------------footer------>
+<!--------------footer------
 <div class="footer">
     <div class="small-container">
         <div class="row">
@@ -180,7 +182,7 @@
         <hr>
         <p class="copyright">&#169; 2022 EverMall</p>
     </div>
-</div>
+</div>----->
 
 
 </body>

@@ -9,26 +9,29 @@
 <body>
 
 <!---------Navigation Bar--------->
+<div class="hero">
 <div style="margin: 0 auto" class="header">
    <div class="container1">
         <div class="navbar">
-                <div class="logo">
-                <img src="../Evermall(Black).png" width="200px">
-                </div>
+            <div class="logo">
+                <img src="../Evermall(White).png" width="200px">
+            </div>
                 <nav>
                     <ul id="MenuItems">
                         <li><a href="Logout.php">Logout</a></li>
                     </ul>
-            </nav>
+                </nav>
     
                 <!--<img src="../eShopping/images/cart.png" width="30px" height="30px">--->
                 <img src="../eShopping/images/menu.png" class="menu-icon"
                      onclick="menu-toggle()">
-            </div>
+        </div>
     </div>
 </div>
 
+<div class="title1">
 <h1 style="margin: 0 auto" class="title">Admin Page</h1>
+</div>
 
 <div style="margin: 0 auto" class="header1">
     <div class="container">
@@ -41,8 +44,8 @@
                         <li><a href="admin_page(Users).php">Users</a></li>
                         <li><a href="admin_page(Orders).php">Orders</a></li>
                     </ul>
-                 </nav>
-            </div>
+                </nav>
+            
         </div>
     </div>
 </div>
@@ -78,7 +81,9 @@
    </div>
 </div>
 
-<!--------------footer------>
+</div>
+
+<!--------------footer------
 <div class="footer">
     <div class="small-container">
         <div class="row">
@@ -143,7 +148,7 @@
         <hr>
         <p class="copyright">&#169; 2022 EverMall</p>
     </div>
-</div>
+</div>---->
 
 
 </body>
