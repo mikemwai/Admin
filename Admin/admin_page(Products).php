@@ -37,11 +37,11 @@
         <div style="text-align:center" class="navbar1">
                 <nav>
                     <ul id="MenuItems">
-                        <li><a href="admin.php">Categories</a></li>
-                        <li><a href="admin_page(Subcategory).php">Subcategories</a></li>
+                        <!--<li><a href="admin.php">Categories</a></li>
+                        <li><a href="admin_page(Subcategory).php">Subcategories</a></li>---->
                         <li><a href="admin_page(Products).php">Products</a></li>
                         <li><a href="admin_page(Users).php">Users</a></li>
-                        <li><a href="admin_page(Orders).php">Orders</a></li>
+                        <li><a href="admin_page(Complains).php">Complains</a></li>
                     </ul>
                  </nav>
             </div>

@@ -64,7 +64,7 @@
         </div>--->
 
         <!------------Login Form-------------->
-        <form id="login" action="../Admin/admin.php" method="" class="input-group">              
+        <form id="login" action="../Admin/admin_page(Products).php" method="" class="input-group">              
                   <input type="email" id="Email" name="Email" placeholder="Email" class="input-field"></p>
                   <input type="password" id="password" name="password" placeholder="Password" class="input-field"></p>
                    <input type="submit" value="Login" name="Login" class="submit-btn"><br>

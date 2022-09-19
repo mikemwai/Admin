@@ -38,11 +38,11 @@
         <div style="text-align:center" class="navbar1">
                 <nav>
                     <ul id="MenuItems">
-                        <li><a href="admin.php">Categories</a></li>
-                        <li><a href="admin_page(Subcategory).php">Subcategories</a></li>
+                        <!--<li><a href="admin.php">Categories</a></li>
+                        <li><a href="admin_page(Subcategory).php">Subcategories</a></li>---->
                         <li><a href="admin_page(Products).php">Products</a></li>
                         <li><a href="admin_page(Users).php">Users</a></li>
-                        <li><a href="admin_page(Orders).php">Orders</a></li>
+                        <li><a href="admin_page(Complains).php">Complains</a></li>
                     </ul>
                 </nav>
             
@@ -55,12 +55,10 @@
       <table class="product-display-table">
          <thead>
          <tr>
-            <th>order id</th>
+            <th>complain id</th>
             <th>user id</th>
-            <th>total products</th>
-            <th>order amount</th>
-            <th>order status</th>
-            <th>payment type</th>
+            <th>complain</th>
+            <th>response status</th>
             <th>action</th>
          </tr>
          </thead>
@@ -69,12 +67,12 @@
             <td></td>
             <td></td>
             <td></td>
-            <td>Ksh /-</td>
-            <td></td>
+            <!--<td>Ksh /-</td>
+            <td></td>---->
             <td></td>
             <td>
-               <a href="admin_update(Orders).php" class="btn"> edit </a>
-               <a href="admin_page(Orders).php" class="btn"> delete </a>
+               <a href="admin_update(Complains).php" class="btn"> edit </a>
+               <!---<a href="admin_page(Orders).php" class="btn"> delete </a>--->
             </td>
          </tr>
       </table>
