@@ -62,14 +62,16 @@
             <th>action</th>
          </tr>
          </thead>
+            
+            
 
          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><?php echo $data['']?></td>
+            <td><?php echo $data['']?></td>
+            <td><?php echo $data['']?></td>
             <!--<td>Ksh /-</td>
             <td></td>---->
-            <td></td>
+            <td><?php echo $data['']?></td>
             <td>
                <a href="admin_update(Complains).php" class="btn"> edit </a>
                <!---<a href="admin_page(Orders).php" class="btn"> delete </a>--->
